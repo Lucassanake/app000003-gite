@@ -1,0 +1,357 @@
+<!doctype html>
+
+<!DOCTYPE html>
+<html>
+
+ <head>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Día mundial de la bicicleta</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema2.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/specialized.jpg','imagenes/trek.jpg','imagenes/meridad2','imagenes/scott2.jpg','imagenes/Giant2.png','imagenes/Cannondale2.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Día Mundial De La Bicicleta </h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Baner conmemorativo: </h1>
+    <div>
+     <p> Unete al dia de la Bicicleta este 18 de Abril :) </p>
+     <br> 
+    </div>
+    <div>
+     <img src="imagenes/imagenes/Baner Conmemorativo.png">
+    </div>
+   </div>
+  </div>
+  <div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2> Historia de la Bicicleta</h2>
+      
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Utilizacion como medio de transporte </h2>
+ 
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos de bicicleta</h2>
+        
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Marcas Importantes e Infuyentes de Bicicletas</h2>
+      
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>¿Por que se celebra el dia mundial de la bicicleta?</h2>
+       
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/bicicleta1.gif" width="4%" height="auto">
+   </div>
+   <div>
+    <h4>Aplicación Tres</h4>
+    <h4>Paul Romero Ramirez </h4>
+   </div>
+  </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> Dia Mundial De La Bicicleta </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Historia de las Bicicletas  </h2>
+<ul>
+<li>*Alrededor de 1790, el francés Mede de Sivrac inventó algo llamado "celerifère". Estaba hecho de madera y tenía dos ruedas, pero sin pedales ni dirección. Pronto de puso de moda tirarse por las laderas en uno.</li>
+<img src="imagenes/h1.jpg" width="25%" height="auto">
+<hr color="blue" size=3>
+<li>**El barón alemán Karl von Drais vio que el invento se podía mejorar. En 1817 diseñó una versión del celifère, pero con una rueda delantera que podía girarse usando unas barras. Montarse en una bicicleta "draisienne" se convirtió en un deporte popular en muchas partes de Europa.</li>
+<img src="imagenes/h2.jpg" width="25%" height="auto" >
+<hr color="blue" size=3>
+<li>***Como estas bicis no tenían pedales, tenías que empujarlas con los pies. Pero en 1839 el herrero escocés Kirkpatrick Macmillan construyó un nuevo modelo de metal, con palancas de pie que hacían girar la rueda trasera. Los lugareños que le veían dando vueltas a toda velocidad en su máquina se reían de él, especialmente cuando se chocó con una niña y encima le multaron por ello. Pero el invento de Macmillan fue la primera bicicleta de verdad impulsada por pedales.</li>
+<img src="imagenes/h3.jpg" width="25%" height="auto" > 
+<hr color="blue" size=3>
+<li>****Macmillan nunca patentó ni fabricó para vender su diseño. En vez de eso, otra gente lo copió y salieron con sus propias variaciones. Los fabricantes de carruajes de París Ernest y Pierre Michaux lanzaron su versión en los 1850s. Tenía pedales sujetos a una gran rueda delantera, y fue llamado el "velocípedo". Los velocípedos tenían los neumáticos hechos de rueda sólida y eran muy incómodos. Tanto es así, que en Inglaterra los llamaban los "sacude-huesos".</li>
+<img src="imagenes/h4.jpg" width="25%" height="auto" > 
+<hr color="blue" size=3>
+<li> 
+*****Cuanto más grande fuera la rueda delantera, más rápido podía ir el velocípedo. En 1871, el inventor inglés James Starley diseñó un velocípedo con una rueda delantera enorme. Lo llamó el "ordinario", aunque hoy en día sería de todo menos ordinario por lo extraño que nos parecería. Es cierto que iba rápido, pero se tambaleaba mucho y causó muchos accidentes.
+</li>
+<img src="imagenes/h5.jpg" width="25%" height="auto" > 
+<hr color="blue" size=3>
+<li>
+******El sobrino de James Starley, John Starley, resolvió el problema en 1885. Unió los pedales a una cadena que giraba la rueda de atrás, como en la bici de Macmillan. Ambas ruedas tenían el mismo tamaño, y la bici era tan segura que fue llamada la "bicicleta segura". Las bicis de hoy en día aún funcionan del mismo modo.
+</li>
+<img src="imagenes/h6.jpg" width="30%" height="auto" >
+</ul>
+<div>
+<hr color="blue" size=3>
+<p> 
+ Para mas Informacion <a href="http://www.bicicletasbellaaravaca.com/historiabicicleta.html" > <strong> PRESIONA AQUI  </strong> </a>
+</p>
+</div>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+<img src="imagenes/bicicleta1.gif" width="4%" height="auto">
+   </div>
+   <h4>Aplicación Tres, Prr</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Dia Mundial de la Bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> Utilizala Como Medio De Transporte :)</h2>
+ <div>
+ <img src="imagenes/u1.gif" width="5%" height="auto" > 
+ <p> 
+ <strong>* 800 millones de bicicletas ruedan cada día, con ventajas no sólo para las personas sino para el cuidado del medio ambiente. :) *</strong>  
+ </p>
+ <img src="imagenes/u2.gif" width="15%" height="auto" >
+ <p>
+ En países europeos como España, Dinamarca, Polonia, Holanda y Francia,  y en algunos asiáticos como China, la bicicleta es un medio de transporte  muy común entre sus habitantes.
+ </p>
+ <p>
+ Entonces ¿por qué este medio de transporte no es tan usado por los ciudadanos? Muchos se quejan de la inseguridad de sus ciudades como obstáculo para usarla regularmente. Otros argumentan que la geografía de sus ciudades no son las adecuadas para andar en ellas y que incluso, los conductores de autos no respetan su paso y por eso, pueden ser vulnerables de sufrir un accidente de tránsito. :(
+ </p>
+ <p>
+  Pero,  si no lo has pensado, usar tu bicicleta como medio de transporte, así sea para recorrer trayectos cortos, puede beneficiar  tu salud, al cuidado del medio ambiente y hasta tu bolsillo.
+ </p>
+ <hr color="blue" size=3>
+ <h3> Ventajas para tu salud </h3>
+ <ul>
+ <li>Ayuda al funcionamiento del sistema cardiovascular, tonifica los músculos y mejora la capacidad pulmonar. </li>
+ <li>Reduce los niveles de colesterol en la sangre. </li>
+ <li>Ayuda a mejorar la coordinación motriz.</li>
+ <li>Es un excelente ejercicio aeróbico que combate los riesgos de sufrir sobrepeso y obesidad.</li>
+ <li>Reduce los niveles de estrés y mejora el estado de ánimo. </li>
+ <li>Puede ser una excelente alternativa para unir a las familias en torno al deporte.</li>
+ </ul>
+ <img src="imagenes/u3.gif" width="30%" height="auto">
+ <hr color="blue" size=3>
+ <h3> Ventajas para el cuidado del medio ambiente </h3>
+ <ul>
+ <li>Una ciudad con alta circulación de bicicletas por sus calles es, definitivamente, una ciudad amigable con el medio ambiente, pues lo ayuda a reducir los niveles de contaminación ambiental y sus niveles de monóxido y dióxido de carbono, hidrocarburos y otras partículas que favorecen la contaminación del aire. </li>
+ <li>Gracias a estos beneficios es que muchas ciudades en el mundo le apuntan al uso masivo de la bicicleta como alternativa para la movilización de personas. En ciudades como Santiago de Chile, Bogotá, Río de Janeiro, Lima y Medellín, los gobiernos promueven programas de desarrollo de políticas públicas que favorezcan la conducción de bicicletas, como la construcción de ciclorrutas, alquiler de bicicletas públicas y otros novedosos proyectos que han logrado un aumento significativo del uso de los vehículos de dos ruedas en el continente. </li>
+ <li> El transporte en bicicleta es una práctica totalmente ecológica porque promueve la disminución de la misión de gases tóxicos para el ambiente y la adopción de estilos de vida saludables para las personas</li>
+ </ul>
+ <img src="imagenes/u4.gif" width="25%" height="auto" >
+ <hr color="blue" size=3>
+ <h3> Ventajas para el cuidado de la economía familiar </h3>
+ <ul>
+ <li> Al usar la bicicleta, también estarás ahorrando muchísimo dinero, pues no gastarías en impuestos, gasolina, parqueaderos, peajes, gastos de mantenimiento, pago de pasajes de servicio de transporte público, etc. </li>
+ </ul>
+ <img src="imagenes/u5.gif" width="20%" height="auto" > 
+ <hr color="blue" size=3>
+ <h3> Cuidados </h3>
+ <p> <strong> Si ya decidiste usar tu bicicleta para tus desplazamientos diarios, debes tomar algunas precauciones para que tus viajes sean seguros.</strong></p>
+ <ul> 
+ <li>Usa el calzado adecuado. Es preferible  zapatos cómodos para evitar torceduras u otro tipo de problemas en los pies. </li>
+ <li>Usa siempre bloqueador solar para evitar enfermedades cutáneas como el cáncer de piel debido a la exposición prolongada al sol. </li>
+ <li>Recuerda siempre usar el casco y prendas vistosas para lograr ser visto por otros conductores de noche o cuando las condiciones climáticas sean difíciles. </li>
+ <li>En lo posible, protege tus ojos con gafas o lentes para evitar que el smog o la contaminación ambiental afecten tu visión. </li>
+ <li><strong>Evita el uso de audífonos y otros distractores que afecten tu concentración a la hora de conducir tu bicicleta. </strong> </li>
+ <li>Respeta siempre las señales de tránsito.</li>
+ <li>Si presentas problemas de tipo cardiaco, muscular u  óseo, consulta  a tu médico antes de tomar la decisión de montar en una bicicleta frecuentemente. </li>
+ </ul>
+ <p> <strong>
+ ¿Utilizas tu bicicleta para tus desplazamientos regulares? ¿Cuáles beneficios crees que te ha traído esta práctica?
+ </strong>
+ </p>
+ <img src="imagenes/u6.gif" width="25%" height="auto">
+ </div>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+   <img src="imagenes/bicicleta1.gif" width="4%" height="auto">
+   </div>
+   <h4>Aplicación Tres, PRR</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> Dia Mundial De la Bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+  <h2> TIPOS DE BISICLETAS </h2>
+   <ul>
+    <li>Bicicletas de Montaña -(MTB)- </li>
+    <li>Bicicletas de Ruta- </li>
+    <li>Bicicletas Híbridas- </li>
+    <li>Bicicletas Urbanas- </li>
+    <li>Bicicletas plegables- </li>
+    <li>Fixies y single speed- </li>
+    <li>Cruisers-</li>
+    <li>MBX-</li>
+    <li>Touring-</li>
+    <li>Eléctricas-</li>
+    <li>Bicicletas utilitarias- </li>
+    <li>Fat Bikes </li> 
+  
+    </ul>
+   </div>
+  </div>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+<img src="imagenes/bicicleta1.gif">
+   </div>
+   <h4>Aplicación Tres, PRR</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Dia Mundial de la Bicicleta</h1> 
+  </div>
+<div data-role="content" align="center">
+   <div>
+    <h2> Marcas Importantes e Infuyentes de Bicicletas  </h2>
+  </div>
+  <hr color="blue" size=3>
+    <h3> <strong> Specialized </strong> </h3>
+    <p>
+    Marca norteamericana considerada por muchos como la mejor del mundo
+patrocina a algunos de los atletas más exitosos del mundo en todas las modalidades deportivas en que interviene una bici.
+hacen bicicletas para todo tipo de usos.
+    </p>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image44','','imagenes/specialized.jpg',1)"><img src="imagenes/1dbd1faa87fbe18fe49a6e4c85cb78a5.gif" width="300" height="365" id="Image44"></a>
+  <hr color="blue" size=3>
+  <h3> <strong> Trek </strong> </h3>
+  <p>
+  Marca norteamericana de bicicletas lleva varios años siendo la máxima rival de Specialized, pues hacen máquinas muy avanzadas tecnológicamente y además patrocinan a muchos equipos de competición
+  </p>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','imagenes/trek.jpg',1)"><img src="imagenes/trek-logo-0f3e08d2bd-seeklogo.com.png" width="275" height="300" id="Image45"></a>
+  <hr color="blue" size=3>
+  <h3> <strong> 
+  Merida
+  </strong></h3>
+  <p>
+  empresa taiwanesa es uno de los principales fabricantes de bicicletas del mundo, pues no sólo hace sus propias bicicletas sino que además es uno de los que más cuadros elabora para terceros. Hacen bicicletas de gran calidad tanto de carretera como de triatlón, pero es quizás en su sección de bicis de montaña donde esta marca se gana su pretigio a nivel internacional
+  </p>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','imagenes/meridad2',1)"><img src="imagenes/merida1.jpg" width="691" height="243" id="Image46"></a>
+<hr color="blue" size=3>
+<h3> <strong> Scott </strong> </h3>
+<p>
+Una de las marcas más vanguardistas en todos los segmentos competitivos: montaña, carretera y triatlón. Es suiza y no sólo se dedica a la fabricación y venta de bicicletas, sino que tienen todo tipo de complementos y vestuario para los ciclistas (zapatillas, cascos, etc.) además de dedicarase a otros deportes 
+</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image47','','imagenes/scott2.jpg',1)"><img src="imagenes/scott1.png" width="548" height="372" id="Image47"></a>
+<hr color="blue" size=3>
+<h3><strong> Giant </strong> </h3>
+<p>
+ Es al igual que Merida una marca taiwanesa que a pesar de hacer productos propios, es también de los principales fabricantes de cuadros del mundo para terceros. Tienen bicicletas muy buenas y fiables y destacan tanto en carretera, como en triatlón y bicis de montaña. Tienen una presencia bastante considerable entre los equipos de élite de competición
+</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image48','','imagenes/Giant2.png',1)"><img src="imagenes/Giant1.jpg" width="236" height="236" id="Image48"></a>
+<hr color="blue" size=3>
+<h3> <strong> Cannondale </strong> <h3>
+<p>
+Esta marca norteamericana es de las más espectaculares del panorama internacional. Sus bicicletas de montaña con la tecnología Lefty (la horquilla sólo tiene un brazo y no dos) y sus bicicletas de carretera ultraligeras y ultra estudiadas por los ingenieros, la consagran sin duda alguna como una de las mejores marcas del mundo. Por si fuera poco hacen de los mejores cuadros de aluminio del mercado
+</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image49','','imagenes/Cannondale2.jpg',1)"><img src="imagenes/Cannondale1.jpg" width="782" height="573" id="Image49"></a>
+<hr color="blue" size=3>
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+  <div>
+  <img src="imagenes/bicicleta1.gif" width="4%" height="auto">
+</div>
+   <h4>Aplicación Tres, PRR</h4>
+</div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> DIA DE LA BICICLETA</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> <strong> ¿Por que se celebra el dia Mundial de la Bicicleta? </strong> </h2>
+    <img src="imagenes/2b2e557633ba553cd3fa55c775deb7ae.gif" height="20%" width="auto" >
+ <p>
+ El 19 de abril, se celebra el Día Mundial de la Bicicleta con el objetivo de promocionar este medio de transporte y llamar la atención sobre los derechos de los ciclistas. 
+</p> 
+<p> 
+ Se celebra este día, porque el  doctor Albert Hofmann, padre del LSD, ingirió a propósito 250 µg de LSD. Tras ingerir la sustancia, Hofmann sintió que le costaba hablar de forma inteligible y pidió a su asistente de laboratorio, que estaba al tanto del experimento, que le acompañase en su viaje a casa en bicicleta, pues, por las restricciones del período de guerra, no había automóviles disponibles.
+</p>
+<p>
+Durante su ‘viaje’, las impresiones acústicas (como el ruido de un automóvil que pasaba) se transformaban en imágenes. Hofmann, al día siguiente despertó fresco y con la mente clara, aunque con cierto cansancio corporal. Desayunó con una sensación de bienestar y vida renovada, y encontró la comida deliciosa. Mientras caminaba por el jardín, notó que todos sus sentidos “vibraban con una sensibilidad superior”, que duró durante todo el día
+</p>
+<img src="imagenes/1234.jpg" height="30%" width="auto" >
+<p>
+Desde entonces, todos los años, el 19 de Abril en todo el mundo la gente coge su bici para rememorar aquel “primer viaje” en bicicleta del doctor Hofmann.
+</p>
+<p> 
+ <a href=" http://www.reciclame.info/calendario-medioambiental/dia-mundial-de-la-bicicleta/">Para saber más sobre el día de la Bisicleta OPRIME AQUI </a>
+</p>
+<hr color="blue" size=3>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+   <img src="imagenes/bicicleta1.gif" width="4%" height="auto">
+   </div>
+   <h4> Aplicación Tres PRR</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+        
